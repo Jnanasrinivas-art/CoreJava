@@ -27,8 +27,6 @@ public class CharacterOccurences
 
     public static void main(String[] args)
     {
-
         getCharCount("test");
-
     }
 }

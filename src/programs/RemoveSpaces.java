@@ -16,6 +16,5 @@ public class RemoveSpaces
         Scanner sc = new Scanner(System.in);
         String s=sc.nextLine();
         removeSpaces(s);
-
     }
 }

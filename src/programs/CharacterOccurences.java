@@ -2,6 +2,7 @@ package programs;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class CharacterOccurences
 {
@@ -27,6 +28,9 @@ public class CharacterOccurences
 
     public static void main(String[] args)
     {
-        getCharCount("test");
+        System.out.println("Enter String");
+        Scanner sc = new Scanner(System.in);
+        String s=sc.nextLine().toLowerCase();
+        getCharCount(s);
     }
 }

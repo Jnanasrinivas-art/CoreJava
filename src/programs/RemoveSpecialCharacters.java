@@ -12,7 +12,7 @@ public class RemoveSpecialCharacters
     }
     public static void removeSpecialCharacters(String s)
     {
-        String result=s.replaceAll("[^a-zA-Z0-9\\s]","");
+        String result=s.replaceAll("[^(a-zA-Z0-9\\s)]","");
         System.out.println("After removal of special characters :"+" "+result);
     }
 }

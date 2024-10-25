@@ -10,7 +10,7 @@ public class RemoveArrayDuplicates
     {
         Set<Integer> s=new HashSet<Integer>();
 
-         for(Integer x:ar)
+         for(int x:ar)
          {
              s.add(x);
          }

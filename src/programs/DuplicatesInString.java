@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class DuplicatesInString
 {
+    //using Hashmap
     public  static void printDuplicatesInString(String s)
     {
         HashMap<Character,Integer> h=new HashMap<Character,Integer>();
@@ -30,6 +31,7 @@ public class DuplicatesInString
             }
         }
     }
+
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);

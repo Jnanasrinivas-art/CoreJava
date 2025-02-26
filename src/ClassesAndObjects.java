@@ -2,7 +2,7 @@ public class ClassesAndObjects
 {
     int eid;
 
-    //Declare the variable globally,if the value is constant throughout the class.
+    //Declare the variable class-level,if the value is constant throughout the class.
     String ename="sai";
     String job;
     int sal;

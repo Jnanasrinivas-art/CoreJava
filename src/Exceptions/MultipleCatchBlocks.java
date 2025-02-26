@@ -14,18 +14,18 @@ public class MultipleCatchBlocks
         }
         catch (ArithmeticException e)
         {
-            System.out.println("Handled Exception...");
+            System.out.println("Handled AException...");
             System.out.println(e.getMessage());
         }
         catch(NullPointerException e)
         {
-            System.out.println("Handled Exception...");
+            System.out.println("Handled npException...");
             System.out.println("Handled Exckjsddjkeption...");
             System.out.println(e.getMessage());
         }
         catch (NumberFormatException e)
         {
-            System.out.println("Handled exception...");
+            System.out.println("Handled neexception...");
             System.out.println(e.getMessage());
         }
         catch (Exception e)

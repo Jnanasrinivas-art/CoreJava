@@ -12,6 +12,7 @@ public class Armstrong{
     }
     public static void checkArmStrong(int c)
     {
+        int temp=c;
         int re=0;
         int sum=0;
         while(c>0)
@@ -19,6 +20,14 @@ public class Armstrong{
             re=c%10;
             sum=sum+re*re*re;
             c=c/10;
+        }
+        if(temp==sum)
+        {
+            System.out.println("Armstrong number" + sum);
+        }
+        else
+        {
+            System.out.println("Not an armstrong");
         }
     }
 
